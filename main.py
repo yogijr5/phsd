@@ -10,11 +10,11 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, LSTM
 
-#Memuat Data Perusahaan
 
+#Banner
 print(f'\n PHSD V1.0 tools Created by: @_yogijr \n')
 
-
+#Memuat Data Perusahaan
 company = input("Masukan Simbol/Kode Perusahaan Yang ingin di prediksi :")
 
 start = dt.datetime(2012,1,1)
